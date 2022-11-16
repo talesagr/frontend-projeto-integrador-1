@@ -1,60 +1,63 @@
 * {
   font-family: "Puritan", sans-serif;
 }
+ul {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background: rgba(64, 94, 170, 0.49);
+}
 label.logo {
   font-family: "Puritan";
   font-style: normal;
   position: absolute;
-  width: 40px;
-  height: 278px;
+  width: 20%;
+  height: 30%;
+  top: 15%;
   font-size: 40px;
   line-height: 44px;
-  padding-left: 80px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: #405eaa;
 }
-ul {
-  position: absolute;
-  width: 350px;
-  height: 100%;
-  background: rgba(64, 94, 170, 0.49);
+label:hover{
+  color: #000000;
 }
 
-#cadastro,#moradores,#logs {
+a,
+#cadastro,
+#moradores,
+#logs {
   position: absolute;
-  width: 330px;
-  height: 125px;
-  left: 0px;
-  top: 352px;
+  width: 100%;
+  left: 0%;
+  top: 40%;
   font-family: "Puritan";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
-  display: center;
-  align-items: center;
   text-align: center;
   color: #000000;
 }
 
-#moradores {
-  width: 330px;
-  height: 125px;
-  left: 0px;
-  top: 589px;
-}
-
+a,
 #logs {
-  width: 330px;
-  height: 125px;
-  left: 0px;
-  top: 472px;
+  width: 100%;
+  top: 50%;
 }
 
+a,
+#moradores {
+  width: 100%;
+  top: 60%;
+}
+
+#historico {
+  width: 100%;
+  top: 70%
+}
 /* Change the link color on hover */
-li a:hover {
+a:hover {
   background-color: #405eaa;
 }
 

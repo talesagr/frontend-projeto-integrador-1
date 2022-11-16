@@ -25,7 +25,6 @@ label:hover{
 
 a,
 #cadastro,
-#moradores,
 #logs {
   position: absolute;
   width: 100%;
@@ -50,6 +49,11 @@ a,
 #moradores {
   width: 100%;
   top: 60%;
+}
+
+#historico {
+  width: 100%;
+  top: 70%
 }
 
 /* Change the link color on hover */
